@@ -21,8 +21,10 @@ hours = input()
 print(f"Enter your hourly wage, without the $: ")
 wage = input() 
 
+#Calculate gross weekly pay
 gross = float(hours) * float(wage)
 print(f"Your gross pay is: " + str(gross)) 
 
+#52 weeks are in a year
 annual = gross * 52 
 print(f"Your estimated annual gross pay is: $" + str(annual))
